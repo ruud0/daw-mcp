@@ -2,6 +2,13 @@
 
 An MCP (Model Context Protocol) server that lets Claude read and edit Ableton Live `.als` project files. Mix tracks, add effects, and adjust parameters through natural language.
 
+## Demo
+
+![demo](docs/demo.gif)
+
+<!-- Record a short screen capture of a real session and save it to
+     docs/demo.gif. Until then this image renders as broken. -->
+
 ## What it does
 
 - **Load/save** Ableton `.als` projects (gzipped XML)
