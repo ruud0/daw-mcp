@@ -14,7 +14,7 @@ An MCP (Model Context Protocol) server that lets Claude read and edit Ableton Li
 - **Load/save** Ableton `.als` projects (gzipped XML)
 - **List tracks** with volume, pan, mute state, and device chains
 - **Mix**: set volume, pan, and send levels per track
-- **Add devices**: Compressor, Limiter, Channel EQ, Glue Compressor, Saturator — with full parameter control
+- **Add devices**: Compressor, Limiter, Channel EQ, Glue Compressor, Saturator, with full parameter control
 - **Edit devices**: modify any parameter on existing devices
 - **Remove devices** and **mute/unmute** tracks
 
@@ -48,8 +48,8 @@ Once connected, tell Claude to:
 
 ## Architecture
 
-- `server.py` — FastMCP tool definitions
-- `als_editor.py` — Ableton XML parser/editor with device template generation
+- `server.py`: FastMCP tool definitions
+- `als_editor.py`: Ableton XML parser/editor with device template generation
 
 ## Requirements
 
